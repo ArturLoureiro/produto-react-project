@@ -1,0 +1,64 @@
+:root {
+--cor-primaria: #4d94ff;
+--cor-sucesso: #28a745;
+--cor-perigo: #ff4d4d;
+--cor-secundaria: #6c757d;
+--cor-texto-botao: white;
+}
+
+body {
+font-family: sans-serif;
+margin: 20px;
+}
+
+.box {
+max-width: 700px;
+margin: auto;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+box-sizing: border-box;
+}
+
+.tarefa-box {
+padding: 15px;
+margin-top: 15px;
+border: 1px solid #eee;
+}
+
+.grid-botoes {
+display: flex;
+gap: 10px;
+}
+
+.botao {
+color: var(--cor-texto-botao);
+border: none;
+cursor: pointer;
+transition: opacity 0.2s;
+}
+
+.botao:hover {
+opacity: 0.8;
+}
+
+.botao-excluir {
+background-color: var(--cor-perigo);
+}
+
+.botao-salvar {
+background-color: var(--cor-sucesso);
+}
+
+.botao-cancelar {
+background-color: var(--cor-secundaria);
+}
+
+.botao-editar {
+background-color: var(--cor-primaria);
+}
