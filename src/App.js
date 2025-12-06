@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import TelaProduto from "./TelaProduto";
-import TelaProdutoEditar from "./TelaProdutoEditar";
-
+import TelaProduto from "./componentes/TelaProduto";
+import TelaProdutoEditar from "./componentes/TelaProdutoEditar";
 function App() {
   return (
     <Router>
