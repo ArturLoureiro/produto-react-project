@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/produto-react-project/static/css/main.dba7e005.css",
+    "main.js": "/produto-react-project/static/js/main.c8a0059d.js",
+    "index.html": "/produto-react-project/index.html",
+    "main.dba7e005.css.map": "/produto-react-project/static/css/main.dba7e005.css.map",
+    "main.c8a0059d.js.map": "/produto-react-project/static/js/main.c8a0059d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dba7e005.css",
+    "static/js/main.c8a0059d.js"
+  ]
+}
